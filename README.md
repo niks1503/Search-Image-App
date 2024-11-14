@@ -2,7 +2,7 @@
 
 A simple and efficient web application that allows users to search for images based on keywords. This app retrieves images dynamically using an API, providing an intuitive user experience with seamless loading and search functionality.
 
-[Live Demo](niks
+[Live Demo](https://niks1503.github.io/Search-Image-App/)
 
 ## Features
 
