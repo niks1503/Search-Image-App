@@ -6,10 +6,11 @@ let inputData = "";
 let page = 1;
 async function searchImages() {
   inputData = search.value.toLowerCase();
-  if (inputData === "") {
-    images_container.innerHTML = "";
-  }
+  // if (inputData === "") {
+  //   images_container.innerHTML = "";
+  // }
   const url = `https://api.unsplash.com/search/photos?page=${page}&query=${inputData}&client_id=${accessKey}`;
+  page++;
   const res = await fetch(url);
   const data = await res.json();
   console.log(data);
